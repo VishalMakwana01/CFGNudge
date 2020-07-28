@@ -1,0 +1,83 @@
+.main {
+    /* display:flex;
+    align-items: center; */
+    margin-left: 240px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    background-image: url('http://www.allwhitebackground.com/images/6/Geometric-Background-Free-Image.jpg');
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+  
+  }
+  @media screen and (max-width: 500px) {
+    .main {margin-left:160px}
+  }
+
+  .main-content{
+      padding:60px 0px
+  }
+   
+  .card{
+   margin-bottom:10px;
+  }
+  .cont{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .dash-cont{
+    max-width: 50rem;
+  }
+  .settings {
+  display: inline-flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 40%;
+}
+.settings .img-container {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+.settings .img-container img {
+  height: 100px;
+}
+.settings .btn-grp {
+  display: flex;
+  flex-direction: column;
+}
+.settings button {
+  border-radius: 6px;
+  padding: 10px;
+  width: fit-content;
+  font-size: 16px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+.settings button:hover {
+  cursor: pointer;
+}
+.settings button:focus {
+  outline: none;
+}
+.settings .save-btn {
+  background: #ef7917;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+}
+.settings .field {
+  margin-bottom: 10px;
+}
+.settings .field .field-label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #9e9e9e;
+  padding: 5px 0;
+}

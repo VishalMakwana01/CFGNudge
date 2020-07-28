@@ -1,0 +1,8 @@
+Team*.zip
+*.pem
+*.ppk
+*.crt
+*.key
+*.ovpn
+*.DS_Store
+service.json

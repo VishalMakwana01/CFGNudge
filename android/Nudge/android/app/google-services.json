@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "750833765482",
+    "firebase_url": "https://allotify.firebaseio.com",
+    "project_id": "allotify",
+    "storage_bucket": "allotify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750833765482:android:ba02828f97caeaa8afce13",
+        "android_client_info": {
+          "package_name": "com.example.Nudge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750833765482-m4sf0va1etgdkfjvocu5h83hjdqontjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Nudge",
+            "certificate_hash": "98f59d433e500dfc4c7a00f807078e8a56abca33"
+          }
+        },
+        {
+          "client_id": "750833765482-8j7jjqrtruq9gr8dj7vji820kt1j52tr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKzjR1tRZSvbI_Gb46peMujV4NDrWbWQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750833765482-8j7jjqrtruq9gr8dj7vji820kt1j52tr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

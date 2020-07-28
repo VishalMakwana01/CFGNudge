@@ -1,0 +1,49 @@
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 240px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    background-image: url("https://us.123rf.com/450wm/apostrophe/apostrophe1604/apostrophe160400062/56269952-blue-background-with-large-stripe-sidebar-or-panel-design.jpg?ver=6");
+  }
+  
+  /* The navigation menu links */
+  .sidenav span {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin:10px 0px
+  }
+  .sidenav-logo {
+    color: white;
+    text-align: center;
+  }
+  .selected-nav {
+    color: #110225 !important;
+    background-color: white;
+    border-right: 1px solid #110225 ;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .sidenav span:hover {
+    color: #110225;
+    background-color: white;
+  }
+  
+  /* Style page content */
+  
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav span {font-size: 18px;}
+  }
+
+  @media screen and (max-width: 500px) {
+    .sidenav {width:160px}
+  }
